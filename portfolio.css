@@ -1,0 +1,245 @@
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Kalam', cursive;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0,0,0,0.9)), url(keyboard_pic.jpg);
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background: rgb(6, 231, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.logo{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 7px 7px;
+    font-weight: bold;
+}
+
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 5px;
+    color: black;
+}
+
+.menu a:hover{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.left{
+    flex-basis: 60%;
+}
+
+.right{
+    flex-basis: 30%;
+}
+
+.right img{
+    width: 90%;
+    height: 650px;
+    border-radius: 8px;
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 255);
+}
+
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5rem;
+}
+
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+}
+
+#hire{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+
+#myp{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px dashed white;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    size: 50%;
+}
+
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftbio{
+    flex-basis: 40%;
+}
+
+.rightbio{
+    flex-basis: 60%;
+}
+
+.leftbio img{
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+}
+
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+}
+
+.rightbio{
+    margin: 15px 0;
+    line-height: 2.5rem;
+}
+
+.rightbio h1{
+    font-size: 2rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#follow{
+    text-align: center;
+}
+
+#follow i{
+    color: green;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.link-h{
+    text-align: center;
+   margin: 3rem; 
+}
+
+#cv{
+   text-decoration: none;
+   color: black;
+   font-size: 1.5rem;
+   border: 1px dashed black;
+   border-radius: 8px;
+   padding: 1rem 2.5rem;
+   margin: 4rem 1rem;
+}
+
+#services{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,0.02);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 3rem;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.cardbody i{
+    font-size: 2rem;
+    color: green;
+}
+
+.cardbody_carding{
+    width: 100%;
+   padding: 3rem 3rem;
+}
+
+footer{
+    background-color: green;
+    color: black;
+    font-size: 1rem;
+    text-align: right;
+}
+
+
